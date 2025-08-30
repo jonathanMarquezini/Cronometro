@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.966);
+}
+.corpo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.corpo .geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+.corpo .geral .titulo {
+    margin-bottom: 30px;
+}
+.corpo .geral .titulo h1 {
+    font-size: 3.2rem;
+    color: rgba(255, 255, 255, 0.849);
+    user-select: none;
+}
+.corpo .geral .btns {
+    display: flex;
+    margin-top: 10px;
+}
+.corpo .geral .btns button {
+    margin-right: 5px;
+    margin-left: 6px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 1px 0.5px 0.5px 1px rgba(255, 255, 255, 0.185);
+    color: white;
+}
+.corpo .geral .btns button:hover {
+    background-color: white;
+    color: black;
+    font-size: 0.94rem;
+    cursor: pointer;
+}
